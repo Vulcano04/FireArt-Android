@@ -1,0 +1,49 @@
+FIREART ANDROID 0.6 — COMPILAR APK EN LA NUBE (SIN ANDROID STUDIO NI SDK LOCAL)
+==================================================================================
+
+Este proyecto incluye un workflow de GitHub Actions. GitHub instala Java, Android
+SDK y Gradle en una máquina virtual y compila el APK allí. En tu PC solo necesitas
+un navegador y una cuenta de GitHub. No necesitas instalar Android Studio ni SDK.
+
+PRIMERA CONFIGURACIÓN (SOLO UNA VEZ)
+-----------------------------------
+1. Entra en https://github.com/new e inicia sesión.
+2. Crea un repositorio nuevo llamado FireArt-Android. Puede ser privado.
+3. En la página del repositorio elige "Add file" > "Upload files".
+4. Abre el ZIP y entra en la carpeta FireArt-Android.
+5. Sube TODO el CONTENIDO de esa carpeta al repositorio (no subas la carpeta
+   FireArt-Android como una carpeta interior). Deben quedar en la raíz del repo:
+   app/, .github/, build.gradle, settings.gradle y gradle.properties.
+6. Pulsa "Commit changes".
+7. Abre la pestaña "Actions". Si GitHub pide habilitar workflows, acepta.
+8. En la lista de workflows elige "Build FireArt Android APK".
+9. Pulsa "Run workflow" > "Run workflow".
+
+DESCARGAR EL APK
+----------------
+1. Abre la ejecución que acaba de comenzar en Actions.
+2. Espera a que todos los pasos aparezcan en verde (puede tardar varios minutos).
+3. Baja hasta "Artifacts".
+4. Descarga "FireArt-Android-0.6-APK".
+5. Extrae el ZIP descargado: dentro estará FireArt-Android-0.6-debug.apk.
+6. Copia el APK a tu dispositivo Android e instálalo. Android puede pedir permiso
+   para instalar aplicaciones desde esa fuente.
+
+ACTUALIZACIONES FUTURAS
+-----------------------
+Cuando subas cambios al repositorio mediante Commit changes, el workflow también
+se ejecutará automáticamente en las ramas main o master. También puedes iniciarlo
+manualmente desde Actions > Build FireArt Android APK > Run workflow.
+
+IMPORTANTE
+----------
+- El APK generado es DEBUG, apropiado para probar e instalar manualmente. No es
+  una versión firmada de publicación para Google Play.
+- GitHub Actions compila el código que hayas subido al repositorio. No puede
+  acceder automáticamente a archivos que solo estén en tu PC.
+- La compilación en la nube necesita conexión a internet y una cuenta GitHub.
+- Los artifacts se conservan 30 días en este workflow.
+- Si la compilación falla, abre la ejecución y revisa el primer paso rojo; el
+  mensaje de error permitirá corregir la configuración o el código.
+- No se ha compilado ni verificado un APK en este entorno. La compilación real
+  se ejecutará cuando lances el workflow en tu repositorio.

@@ -1,0 +1,404 @@
+{
+  "source": "FireArt PC 2.66",
+  "format": "fireart-pc-brush-presets",
+  "version": 1,
+  "brushes": [
+    {
+      "name": "Pluma G",
+      "settings": {
+        "tamano": 10,
+        "opacidad": 1.0,
+        "dureza": 1.0,
+        "estabilizador": 20,
+        "espaciado": 0.08,
+        "presion_tamano": true,
+        "presion_opacidad": false,
+        "tamano_min": 0.1
+      }
+    },
+    {
+      "name": "Lápiz",
+      "settings": {
+        "tamano": 6,
+        "opacidad": 0.9,
+        "dureza": 0.85,
+        "estabilizador": 5,
+        "espaciado": 0.12,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.2
+      }
+    },
+    {
+      "name": "Pincel suave",
+      "settings": {
+        "tamano": 30,
+        "opacidad": 0.8,
+        "dureza": 0.3,
+        "estabilizador": 10,
+        "espaciado": 0.1,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.3
+      }
+    },
+    {
+      "name": "Rotulador",
+      "settings": {
+        "tamano": 14,
+        "opacidad": 1.0,
+        "dureza": 1.0,
+        "estabilizador": 0,
+        "espaciado": 0.1,
+        "presion_tamano": false,
+        "presion_opacidad": false,
+        "tamano_min": 1.0
+      }
+    },
+    {
+      "name": "Carboncillo texturizado",
+      "settings": {
+        "tamano": 24,
+        "opacidad": 0.9,
+        "dureza": 0.7,
+        "estabilizador": 8,
+        "espaciado": 0.04,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.4,
+        "ruido": 0.65,
+        "dispersion": 0.35
+      }
+    },
+    {
+      "name": "Pincel seco",
+      "settings": {
+        "tamano": 40,
+        "opacidad": 0.85,
+        "dureza": 0.5,
+        "estabilizador": 10,
+        "espaciado": 0.03,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.3,
+        "ruido": 0.8,
+        "dispersion": 0.15
+      }
+    },
+    {
+      "name": "Óleo grueso",
+      "settings": {
+        "tamano": 80,
+        "opacidad": 1.0,
+        "dureza": 0.8,
+        "estabilizador": 25,
+        "espaciado": 0.05,
+        "presion_tamano": true,
+        "presion_opacidad": false,
+        "tamano_min": 0.5,
+        "ruido": 0.25,
+        "dispersion": 0.1
+      }
+    },
+    {
+      "name": "Pluma de entintar",
+      "settings": {
+        "tamano": 6,
+        "opacidad": 1.0,
+        "dureza": 1.0,
+        "estabilizador": 60,
+        "espaciado": 0.05,
+        "presion_tamano": true,
+        "presion_opacidad": false,
+        "tamano_min": 0.05
+      }
+    },
+    {
+      "name": "Pluma cartográfica",
+      "settings": {
+        "tamano": 3.5,
+        "opacidad": 1.0,
+        "dureza": 1.0,
+        "estabilizador": 45,
+        "espaciado": 0.035,
+        "presion_tamano": false,
+        "presion_opacidad": false,
+        "tamano_min": 1.0
+      }
+    },
+    {
+      "name": "Pluma rugosa",
+      "settings": {
+        "tamano": 11,
+        "opacidad": 0.95,
+        "dureza": 0.92,
+        "estabilizador": 12,
+        "espaciado": 0.025,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.15,
+        "ruido": 0.28,
+        "dispersion": 0.12
+      }
+    },
+    {
+      "name": "Marcador translúcido",
+      "settings": {
+        "tamano": 28,
+        "opacidad": 0.34,
+        "dureza": 0.95,
+        "estabilizador": 8,
+        "espaciado": 0.06,
+        "presion_tamano": false,
+        "presion_opacidad": false,
+        "tamano_min": 1.0
+      }
+    },
+    {
+      "name": "Acuarela suave",
+      "settings": {
+        "tamano": 55,
+        "opacidad": 0.48,
+        "dureza": 0.08,
+        "estabilizador": 8,
+        "espaciado": 0.035,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.25,
+        "ruido": 0.12
+      }
+    },
+    {
+      "name": "Acuarela opaca",
+      "settings": {
+        "tamano": 45,
+        "opacidad": 0.92,
+        "dureza": 0.42,
+        "estabilizador": 10,
+        "espaciado": 0.03,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.25,
+        "ruido": 0.2,
+        "dispersion": 0.06
+      }
+    },
+    {
+      "name": "Tinta seca",
+      "settings": {
+        "tamano": 17,
+        "opacidad": 1.0,
+        "dureza": 1.0,
+        "estabilizador": 18,
+        "espaciado": 0.02,
+        "presion_tamano": true,
+        "presion_opacidad": false,
+        "tamano_min": 0.12,
+        "ruido": 0.38,
+        "dispersion": 0.04
+      }
+    },
+    {
+      "name": "Línea ultra lisa",
+      "settings": {
+        "tamano": 5,
+        "opacidad": 1.0,
+        "dureza": 1.0,
+        "espaciado": 0.025,
+        "correccion_trazo_activa": true,
+        "estabilizador": 8,
+        "presion_tamano": true,
+        "tamano_min": 0.08
+      }
+    },
+    {
+      "name": "Pincel satinado",
+      "settings": {
+        "tamano": 34,
+        "opacidad": 0.92,
+        "dureza": 0.96,
+        "espaciado": 0.025,
+        "ruido": 0.0,
+        "dispersion": 0.0,
+        "presion_tamano": true,
+        "presion_opacidad": false,
+        "tamano_min": 0.22
+      }
+    },
+    {
+      "name": "Grafito aterciopelado",
+      "settings": {
+        "tamano": 22,
+        "opacidad": 0.72,
+        "dureza": 0.55,
+        "espaciado": 0.025,
+        "ruido": 0.22,
+        "textura_activa": true,
+        "textura_tipo": "Grano",
+        "textura_opacidad": 0.2,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.12
+      }
+    },
+    {
+      "name": "Pincel puntiagudo",
+      "settings": {
+        "tamano": 18,
+        "opacidad": 1.0,
+        "dureza": 1.0,
+        "espaciado": 0.035,
+        "punta_tipo": "Puntiaguda",
+        "angulo_punta": 0,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.03
+      }
+    },
+    {
+      "name": "Tinta de contorno suave",
+      "settings": {
+        "tamano": 8,
+        "opacidad": 0.96,
+        "dureza": 0.98,
+        "espaciado": 0.02,
+        "punta_tipo": "Puntiaguda",
+        "correccion_trazo_activa": true,
+        "estabilizador": 6,
+        "presion_tamano": true,
+        "presion_opacidad": false,
+        "tamano_min": 0.05
+      }
+    },
+    {
+      "name": "Tinta con presión",
+      "settings": {
+        "tamano": 7,
+        "opacidad": 1.0,
+        "dureza": 1.0,
+        "estabilizador": 28,
+        "espaciado": 0.035,
+        "presion_tamano": true,
+        "presion_opacidad": false,
+        "tamano_min": 0.06,
+        "curva_presion": 1.35
+      }
+    },
+    {
+      "name": "Acuarela granulada",
+      "settings": {
+        "tamano": 48,
+        "opacidad": 0.58,
+        "dureza": 0.18,
+        "estabilizador": 7,
+        "espaciado": 0.025,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.2,
+        "ruido": 0.5,
+        "textura_activa": true,
+        "textura_tipo": "Papel",
+        "textura_opacidad": 0.35
+      }
+    },
+    {
+      "name": "Pintura espesa",
+      "settings": {
+        "tamano": 64,
+        "opacidad": 0.95,
+        "dureza": 0.72,
+        "estabilizador": 12,
+        "espaciado": 0.045,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.22,
+        "mezcla_color": 0.4,
+        "humedad": 0.35,
+        "arrastre": 0.55,
+        "mezcla_humeda": true
+      }
+    },
+    {
+      "name": "Pincel de nube",
+      "settings": {
+        "tamano": 100,
+        "opacidad": 0.22,
+        "dureza": 0.08,
+        "estabilizador": 0,
+        "espaciado": 0.025,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.2,
+        "ruido": 0.25,
+        "dispersion": 0.18
+      }
+    },
+    {
+      "name": "Punteado fino",
+      "settings": {
+        "tamano": 18,
+        "opacidad": 0.85,
+        "dureza": 0.9,
+        "estabilizador": 0,
+        "espaciado": 0.018,
+        "puntos": 42,
+        "ruido": 0.25,
+        "dispersion": 0.3,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.1
+      }
+    },
+    {
+      "name": "Marcador biselado",
+      "settings": {
+        "tamano": 22,
+        "opacidad": 0.8,
+        "dureza": 0.95,
+        "estabilizador": 8,
+        "espaciado": 0.045,
+        "angulo_punta": 25,
+        "aspecto_punta": 2.2,
+        "punta_tipo": "Elíptica",
+        "presion_tamano": false,
+        "presion_opacidad": false,
+        "tamano_min": 1.0
+      }
+    },
+    {
+      "name": "Pincel de hojas sueltas",
+      "settings": {
+        "tamano": 32,
+        "opacidad": 0.9,
+        "dureza": 0.9,
+        "estabilizador": 5,
+        "espaciado": 0.42,
+        "jitter_posicion": 0.28,
+        "jitter_tamano": 0.22,
+        "jitter_angulo": 45,
+        "dispersar": true,
+        "dispersion": 0.35,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.25
+      }
+    },
+    {
+      "name": "Tiza suave",
+      "settings": {
+        "tamano": 26,
+        "opacidad": 0.7,
+        "dureza": 0.38,
+        "estabilizador": 4,
+        "espaciado": 0.04,
+        "ruido": 0.55,
+        "textura_activa": true,
+        "textura_tipo": "Grano",
+        "textura_opacidad": 0.4,
+        "presion_tamano": true,
+        "presion_opacidad": true,
+        "tamano_min": 0.2
+      }
+    }
+  ]
+}
